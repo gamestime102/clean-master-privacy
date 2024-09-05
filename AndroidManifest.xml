@@ -68,20 +68,20 @@
         <service android:name=".service.CoreService" />
         <service android:name=".service.MService" />
         
-         <activity android:name="com.bitants.cleanmaster.SetWhiteListActivity"
+         <activity android:name="com.clean.master.privacy.SetWhiteListActivity"
              android:theme="@android:style/Theme.NoTitleBar"></activity>
         
         
-         <activity android:name="com.bitants.cleanmaster.FunActivity"
+         <activity android:name="com.clean.master.privacy.FunActivity"
         android:label="@string/app_name"  
           android:theme="@android:style/Theme.Translucent.NoTitleBar">
         </activity>
         
-        <activity android:name="com.bitants.cleanmaster.LockActivity"></activity>
+        <activity android:name="com.clean.master.privacy.LockActivity"></activity>
         
-         <service android:name="com.bitants.cleanmaster.floa.FloatService"></service>
+         <service android:name="com.clean.master.privacy.floa.FloatService"></service>
          <receiver 
-            android:name="com.bitants.cleanmaster.LockReceiver" 
+            android:name="com.clean.master.privacy.LockReceiver" 
             android:description="@string/app_name" 
             android:label="@string/app_name" 
             android:permission="android.permission.BIND_DEVICE_ADMIN" > 
